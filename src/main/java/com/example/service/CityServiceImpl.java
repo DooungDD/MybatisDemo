@@ -16,14 +16,12 @@ public class CityServiceImpl implements CityService {
 	
 	@Override
 	public CityVo selectCity(String name) {
-		// TODO Auto-generated method stub
-		return null;
+		return this.cityDao.read(name);
 	}
 
 	@Override
 	public List<CityVo> selectCitiesByCountryCode(String countryCode) {
-		// TODO Auto-generated method stub
-		return null;
+		return this.cityDao.readAll(countryCode);
 	}
 
 }
