@@ -28,7 +28,7 @@ class CityTest {
 		} catch (Exception ex) {
 			log.warning(ex.getMessage());
 		}
-		log.info("Hello, World");
+		//log.info("Hello, World");
 	}
 
 }
